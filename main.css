@@ -1,64 +1,46 @@
-ol li:first-child {
-    padding: 2px;
-    border: 1px solid black;
-    margin: 3px;
+/* .box {
+    padding: 10px;
+    border: 3px solid red;
+    margin: 20px;
+} */
+
+.box {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    height: 300px;
+    width: 49%;
+    display: inline-block;
 }
 
-ol li:nth-child(2) {
-    padding: 2px 3px 4px 5px;
-    border: 1px solid black;
-    margin: 6px 7px 8px 9px;
+html, body {
+    height: 100%;
 }
 
-ol li:nth-child(3) {
-    padding: 2px;
-    border: 1px solid black;
-    margin: 3px;
-}
-
-ol li:nth-child(4) {
-    height: 100vh;
-    padding: 2px;
-    border: 1px solid black;
-    margin: 3px;
-}
-
-ol li:nth-child(5) {
+/* #first-box {
+    height: 100%;
+    box-sizing: border-box;
     height: 300px;
     width: 50%;
-    padding: 2px;
-    border: 1px solid black;
-    margin: 3px;
-    display: inline-block;
-}
+} */
 
-ol li:nth-child(6) {
-    height: 300px;
-    width: 40%;
-    padding: 2px;
-    border: 1px solid black;
-    margin: 3px;
-    display: inline-block;
-}
-
-ol li:nth-child(7) {
+#first-box {
     display: none;
+    /* visibility: hidden; */
 }
 
-ol li:nth-child(8) {
-    height: 90px;
-    width: 90%;
-    padding: 2px;
-    border: 1px solid black;
-    margin: 3px;
-    display: inline-block;
-    transition: 1s;
-}
-
-ol li:nth-child(8):hover {
-    height: 180px;
-    width: 80%;
-    background: aqua;
-    transition: 1s;
-    border: 2px dotted blueviolet;
+div:last-of-type:hover {
+    border-color: green;
 }

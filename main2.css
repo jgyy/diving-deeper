@@ -1,0 +1,64 @@
+ol li:first-child {
+    padding: 2px;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+ol li:nth-child(2) {
+    padding: 2px 3px 4px 5px;
+    border: 1px solid black;
+    margin: 6px 7px 8px 9px;
+}
+
+ol li:nth-child(3) {
+    padding: 2px;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+ol li:nth-child(4) {
+    height: 30vh;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+ol li:nth-child(5) {
+    height: 100px;
+    width: 50%;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 3px;
+    display: inline-block;
+}
+
+ol li:nth-child(6) {
+    height: 100px;
+    width: 40%;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 3px;
+    display: inline-block;
+}
+
+ol li:nth-child(7) {
+    display: none;
+}
+
+ol li:nth-child(8) {
+    height: 90px;
+    width: 90%;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 3px;
+    display: inline-block;
+    transition: 1s;
+}
+
+ol li:nth-child(8):hover {
+    height: 180px;
+    width: 80%;
+    background: aqua;
+    transition: 1s;
+    border: 2px dotted blueviolet;
+}
